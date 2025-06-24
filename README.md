@@ -3,8 +3,6 @@ Smart Store Excel Batch Processor
 
 ---
 
-## 🇰🇷 한국어 안내
-
 ### 소개
 스마트스토어 주문 데이터와 운송장 데이터를 자동 매칭하여 엑셀로 저장하는 PyQt5 기반 GUI 프로그램입니다. 암호화된 엑셀도 지원하며, 드래그 앤 드롭으로 파일을 올릴 수 있습니다.
 
@@ -64,7 +62,7 @@ GPL-3.0
 
 ---
 
-## 🇺🇸 English Guide
+## English Guide
 
 ### Introduction
 A GUI tool for batch matching Smart Store order and shipping Excel files. Built with PyQt5, supports drag & drop, password-protected Excel, and saves results with styled headers.
