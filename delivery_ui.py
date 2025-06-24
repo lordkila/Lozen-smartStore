@@ -154,7 +154,7 @@ class SmartStoreProcessor(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('스마트스토어 엑셀 일괄처리 프로그램 v1.0.0')
+        self.setWindowTitle('스마트스토어 엑셀 일괄처리 프로그램 v1.2.0')
         self.setGeometry(100, 100, 1000, 700)
         self.setStyleSheet("background-color: #FCFCFC;")
 
