@@ -52,12 +52,14 @@ GPL-3.0
 
 
 ### 예시 폴더 구조
+  ```bash
+  pip install PyQt5 qasync pandas openpyxl msoffcrypto  
 /SmartStore-Excel-Processor  
 ├── delivery_ui.py  
 ├── requirements.txt   
 ├── LICENSE  
 └── README.md  
-
+ ```
 
 ## 버전
 - v1.0.0: 최초 배포
@@ -85,8 +87,8 @@ A GUI tool for batch matching Smart Store order and shipping Excel files. Built 
 
 #### Install dependencies
   ```bash
-  pip install PyQt5 qasync pandas openpyxl msoffcrypto
-
+  pip install PyQt5 qasync pandas openpyxl msoffcrypto  
+ ```
 
 ### Usage
 1. Run the program:
@@ -113,11 +115,13 @@ GPL-3.0
 See `LICENSE` for details
 
 ### Example Structure
+ ```bash
 /SmartStore-Excel-Processor  
 ├── delivery_ui.py  
 ├── requirements.txt   
 ├── LICENSE  
 └── README.md  
+ ```
 
 ### version
 v1.0.0: Initial release
