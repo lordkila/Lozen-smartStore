@@ -11,8 +11,6 @@
 - [GitHub Sponsors로 후원하기](https://github.com/sponsors/cch230)
 - 또는 커피 한 잔을 보내주세요! ☕
 
----
-
 If you find this project useful, please consider supporting it!  
 Your sponsorship helps keep this project alive and motivates further development.
 
