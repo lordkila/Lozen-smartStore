@@ -53,7 +53,6 @@ GPL-3.0
 
 ### 예시 폴더 구조
   ```bash
-  pip install PyQt5 qasync pandas openpyxl msoffcrypto  
 /SmartStore-Excel-Processor  
 ├── delivery_ui.py  
 ├── requirements.txt   
