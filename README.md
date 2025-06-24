@@ -48,11 +48,11 @@ GPL-3.0
 
 
 ### 예시 폴더 구조
-/SmartStore-Excel-Processor
-├── delivery_ui.py
-├── requirements.txt
-├── LICENSE
-└── README.md
+/SmartStore-Excel-Processor  
+├── delivery_ui.py  
+├── requirements.txt   
+├── LICENSE  
+└── README.md  
 
 
 ## 버전
@@ -108,11 +108,11 @@ GPL-3.0
 See `LICENSE` for details
 
 ### Example Structure
-/SmartStore-Excel-Processor
-├── delivery_ui.py
-├── requirements.txt
-├── LICENSE
-└── README.md
+/SmartStore-Excel-Processor  
+├── delivery_ui.py  
+├── requirements.txt   
+├── LICENSE  
+└── README.md  
 
 ### version
 v1.0.0: Initial release
