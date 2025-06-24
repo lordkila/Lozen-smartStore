@@ -24,6 +24,7 @@ Smart Store Excel Batch Processor
   ```bash
   pip install PyQt5 qasync pandas openpyxl msoffcrypto
 
+
 ### 사용 방법
 1. 프로그램 실행
 python delivery_ui.py
