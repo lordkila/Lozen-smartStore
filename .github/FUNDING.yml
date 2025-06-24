@@ -1,4 +1,4 @@
 # These are supported funding model platforms
 
 github: [cch230]
-custom: ['https://qr.kakaopay.com/Ej85GtiCS', 'supertoss://send?amount=5000&bank=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC&accountNo=100007076649&origin=qr']
+kakao: ['https://qr.kakaopay.com/Ej85GtiCS']
