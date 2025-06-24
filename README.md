@@ -1,13 +1,31 @@
 # 스마트스토어 엑셀 일괄처리 프로그램  
-Smart Store Excel Batch Processor
+# Smart Store Excel Batch Processor
+
+---
+
+## 🙏 후원 안내 (Support & Sponsor)
+
+이 프로젝트가 도움이 되었다면, 개발 지속과 유지보수를 위해 후원을 부탁드립니다!  
+여러분의 작은 응원이 오픈소스 발전에 큰 힘이 됩니다.
+
+- [GitHub Sponsors로 후원하기](https://github.com/sponsors/cch230)
+- 또는 커피 한 잔을 보내주세요! ☕
+
+---
+
+If you find this project useful, please consider supporting it!  
+Your sponsorship helps keep this project alive and motivates further development.
+
+- [Sponsor via GitHub Sponsors](https://github.com/sponsors/cch230)
+- Or just buy me a coffee! ☕
+
+감사합니다! Thank you!
 
 ---
 
 ### 1. 소개
 스마트스토어 주문 데이터와 운송장 데이터를 자동 매칭하여 엑셀로 저장하는 PyQt5 기반 GUI 프로그램입니다. 암호화된 엑셀도 지원하며, 드래그 앤 드롭으로 파일을 올릴 수 있습니다.  
 [Click to read English introduction.](#English-Guide)
-
----
 
    
 ### 2. 주요 기능
